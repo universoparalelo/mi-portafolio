@@ -1,0 +1,97 @@
+/* colores
+claro -> #565B32
+oscuro -> #ABB25E */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    border: 1px solid #ABB25E;
+}
+
+body{
+    background-color: #565B32;
+    color: #F5F5F5;
+}
+
+.encabezado{
+    padding: 20px 0 10px 125px;
+}
+.encabezado-principal{
+    display: flex;
+    gap: 36px;
+}
+.encabezado-links{
+    font-size: 36px;
+    color: #F5F5F5;
+    font-weight: 400;
+}
+.encabezado-links:hover{
+    opacity: .6;
+}
+
+
+.cuerpo{
+    max-width: 80vw;
+    margin: 0 auto 36px auto;
+    padding-top: 36px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.cuerpo-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.cuerpo-titulo{
+    font-size: 36px;
+    font-weight: 400;
+}
+.cuerpo-parrafo{
+    font-size: 24px;
+}
+strong{
+    font-weight: 400;
+}
+.parrafo-destacado{
+    color: #ABB25E;
+}
+.cuerpo-subtitulo{
+    color: #ABB25E;
+    text-decoration: underline;
+    font-size: 36px;
+    margin: auto;
+}
+.boton-redes{
+    padding: 24px;
+    width: 300px;
+    margin: auto;
+    background-color: #565B32;
+    border: 2px solid #ABB25E;
+    color: #ABB25E;
+    font-size: 24px;
+    text-align: center;
+}
+.boton-redes:hover{
+    opacity: .5;
+}
+.cuerpo-imagen{
+    border-radius: 16px;
+    max-height: 90vh;
+}
+
+.pie{
+    background-color: #ABB25E;
+    padding: 22px;
+    text-align: center;
+}
+.pie-texto{
+    font-size: 24px;
+    color: #565B32;
+}
