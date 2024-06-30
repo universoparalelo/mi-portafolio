@@ -109,4 +109,9 @@ strong{
     .cuerpo{
         flex-direction: column-reverse;
     }
+
+    .cuerpo-imagen{
+        border-radius: 16px;
+        max-height: 40vh;
+    }
 }
